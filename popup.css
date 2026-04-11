@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 280px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8f0;
+}
+
+.card {
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.cal-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 14px;
+}
+
+.label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #999;
+  margin-bottom: 14px;
+}
+
+.nepali-date {
+  font-size: 22px;
+  font-weight: 700;
+  color: #b91c1c;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.english-date {
+  font-size: 13px;
+  color: #666;
+}
+
+.error {
+  font-size: 13px;
+  color: #b91c1c;
+  margin-top: 8px;
+}
+
+#retry-btn {
+  margin-top: 14px;
+  padding: 6px 18px;
+  background: #b91c1c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#retry-btn:hover {
+  background: #991b1b;
+}

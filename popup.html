@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="card">
+
+    <!-- simple calendar svg icon -->
+    <svg class="cal-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="4" width="18" height="18" rx="2" stroke="#b91c1c" stroke-width="1.8"/>
+      <path d="M3 9H21" stroke="#b91c1c" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8 2V6" stroke="#b91c1c" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M16 2V6" stroke="#b91c1c" stroke-width="1.8" stroke-linecap="round"/>
+      <rect x="7" y="13" width="2" height="2" rx="0.5" fill="#b91c1c"/>
+      <rect x="11" y="13" width="2" height="2" rx="0.5" fill="#b91c1c"/>
+      <rect x="15" y="13" width="2" height="2" rx="0.5" fill="#b91c1c"/>
+      <rect x="7" y="17" width="2" height="2" rx="0.5" fill="#b91c1c"/>
+      <rect x="11" y="17" width="2" height="2" rx="0.5" fill="#b91c1c"/>
+    </svg>
+
+    <div class="label">TODAY'S NEPALI DATE</div>
+    <div id="nepali-date" class="nepali-date">Loading...</div>
+    <div id="english-date" class="english-date"></div>
+    <div id="error" class="error" hidden>Could not load date. Please try again.</div>
+    <button id="retry-btn" hidden>Retry</button>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
