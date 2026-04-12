@@ -13,6 +13,7 @@ body {
 .card {
   padding: 28px 24px;
   text-align: center;
+  position: relative;
 }
 
 .cal-icon {
@@ -61,4 +62,23 @@ body {
 
 #retry-btn:hover {
   background: #991b1b;
+}
+
+#github-link {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  display: flex;
+  opacity: 0.35;
+  transition: opacity 0.2s;
+}
+
+#github-link:hover {
+  opacity: 0.75;
+}
+
+#github-icon {
+  width: 14px;
+  height: 14px;
+  fill: #444;
 }
