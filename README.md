@@ -14,4 +14,4 @@ The website grabs more so steals data from [HamroPatro](https://www.hamropatro.c
 5. Done.
 
 ---
-*last update ( UTC+05:45 ): 3:38 AM, April 11, 2026*
+*last update ( UTC+05:45 ): 7:41 PM, April 12, 2026*
