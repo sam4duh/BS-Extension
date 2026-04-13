@@ -1,5 +1,4 @@
 const CACHE_KEY = 'nepali_date_cache';
-const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
 const nepaliDateEl = document.getElementById('nepali-date');
 const englishDateEl = document.getElementById('english-date');
@@ -165,5 +164,10 @@ function getCache() {
 }
 
 function isCacheStale(ts) {
-  return (Date.now() - ts) > CACHE_TTL;
+  const cached = new Date(ts);
+  const now = new Date();
+  // stale if it's from a previous calendar day, not just 24hrs ago
+  return cached.getFullYear() !== now.getFullYear()
+    || cached.getMonth() !== now.getMonth()
+    || cached.getDate() !== now.getDate();
 }
