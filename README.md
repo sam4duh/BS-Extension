@@ -26,4 +26,4 @@ Shortcut to open the popup is `Alt+Shift+D`. You can change it from `about:addon
 If it says it couldn't load the date on Firefox, open `about:addons`, click the extension, go to Permissions and make sure the hamropatro.com access is turned on.
 
 ---
-*last updated ( UTC ): <!-- last-updated -->October 15, 2026, 00:00 UTC<!-- /last-updated -->*
+*last updated ( UTC ): <!-- last-updated -->October 15, 2026, 05:12 UTC<!-- /last-updated -->*
